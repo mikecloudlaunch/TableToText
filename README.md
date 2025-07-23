@@ -77,18 +77,6 @@ public/                    # Static assets
 └── site.webmanifest      # PWA manifest
 ```
 
-## 🔧 Development
-
-### Available Scripts
-
-```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run start        # Start production server
-npm run lint         # Run ESLint
-npm run type-check   # Run TypeScript checks
-```
-
 ## 📝 License
 
 This project is licensed under the MIT License.
