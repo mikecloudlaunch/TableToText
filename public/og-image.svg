@@ -1,0 +1,31 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1a1625"/>
+  
+  <!-- Background pattern -->
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#2d2438" stroke-width="1" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Logo -->
+  <g transform="translate(100, 200)">
+    <rect width="80" height="80" fill="#2d2438" rx="16"/>
+    <g transform="translate(20, 20)">
+      <!-- BarChart3 icon -->
+      <path d="M12 12v20M48 12v52M32 32v32" stroke="#c084fc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="220" y="250" fill="#c084fc" font-family="Inter, system-ui, sans-serif" font-size="64" font-weight="800">Table To Text</text>
+  
+  <!-- Subtitle -->
+  <text x="220" y="310" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="400">Convert Spreadsheet Data to Clean Text</text>
+  
+  <!-- Description -->
+  <text x="220" y="380" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400">Perfect for reports, documentation, and data analysis</text>
+  <text x="220" y="420" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400">All processing happens in your browser - your data stays private</text>
+</svg>
