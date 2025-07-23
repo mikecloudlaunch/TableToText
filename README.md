@@ -85,7 +85,7 @@ This project is licensed under the MIT License.
 
 - [ShadCN](https://ui.shadcn.com/) for the excellent UI component library
 - [Lucide](https://lucide.dev/) for the beautiful icons
-- [Vercel](https://vercel.com/) for the amazing hosting platform
+- [Netlify](https://netlify.com/) for the amazing hosting platform
 
 ## 📞 Support
 
