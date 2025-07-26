@@ -38,8 +38,8 @@ export function TableConverter() {
   }> = [
     {
       id: 'pipe',
-      label: 'Pipe Separated',
-      description: 'Data separated by pipe characters',
+      label: 'Space Separated',
+      description: 'Clean data separated by spaces',
       icon: <Columns className="w-4 h-4" />,
       badge: 'Popular'
     },

@@ -31,7 +31,7 @@ export function parseTableData(input: string): TableData {
  */
 export class TextFormatter {
   static toPipeDelimited(data: TableData): string {
-    return data.rows.map(row => row.join(' | ')).join('\n')
+    return data.rows.map(row => row.join('  ')).join('\n')
   }
 
   static toFixedWidth(data: TableData): string {
@@ -70,7 +70,7 @@ export class TextFormatter {
     
     // Create data rows
     const dataRowsFormatted = dataRows.map(row => 
-      '| ' + row.join(' | ') + ' |'
+      '| ' + row.join('  ') + ' |'
     )
 
     return [headerRow, separatorRow, ...dataRowsFormatted].join('\n')
