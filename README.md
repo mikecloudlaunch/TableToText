@@ -30,27 +30,6 @@ Visit the live application: [https://tabletotext.com](https://tabletotext.com)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Fonts**: [Inter](https://fonts.google.com/specimen/Inter) from Google Fonts
 
-## 📦 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/table-to-text.git
-   cd table-to-text
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
 ## 🎯 Usage
 
 1. **Copy data** from Excel, Google Sheets, or any spreadsheet
@@ -98,36 +77,6 @@ public/                    # Static assets
 └── site.webmanifest      # PWA manifest
 ```
 
-## 🔧 Development
-
-### Available Scripts
-
-```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run start        # Start production server
-npm run lint         # Run ESLint
-npm run type-check   # Run TypeScript checks
-```
-
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Connect your repository to [Vercel](https://vercel.com)
-3. Deploy automatically on every push
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License.
@@ -136,7 +85,7 @@ This project is licensed under the MIT License.
 
 - [ShadCN](https://ui.shadcn.com/) for the excellent UI component library
 - [Lucide](https://lucide.dev/) for the beautiful icons
-- [Vercel](https://vercel.com/) for the amazing hosting platform
+- [Netlify](https://netlify.com/) for the amazing hosting platform
 
 ## 📞 Support
 
