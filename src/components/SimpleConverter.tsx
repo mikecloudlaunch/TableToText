@@ -118,7 +118,7 @@ export function SimpleConverter() {
         <div className="flex gap-3">
           <Button
             onClick={handleCopy}
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 shadow-lg shadow-primary/25"
+            className="bg-green-600 hover:bg-green-700 text-white px-6 shadow-lg shadow-green-600/25"
             disabled={!inputData.trim()}
           >
             <Copy className="w-4 h-4 mr-2" />

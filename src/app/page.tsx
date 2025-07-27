@@ -44,9 +44,9 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="py-16 px-6 text-center">
+        <section className="py-8 px-6 text-center">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6 tracking-tight">
+            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4 tracking-tight">
               Clear Data. Confident Decisions.
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
@@ -57,7 +57,7 @@ export default function Home() {
         </section>
 
         {/* Converter Section */}
-        <section id="converter" className="py-12 px-6 relative z-10">
+        <section id="converter" className="py-4 px-6 relative z-10">
           <div className="max-w-5xl mx-auto">
             {/* Enhanced background panel */}
             <div className="converter-panel rounded-2xl p-8 md:p-12">
@@ -69,7 +69,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-border/30 bg-card/50 backdrop-blur-sm relative z-10">
-        <div className="max-w-7xl mx-auto px-6 py-12">
+        <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Brand */}
             <div className="space-y-4">
